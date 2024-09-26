@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxia siendo absorbida por un Agujero Negro</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        #info {
+            position: absolute;
+            color: white;
+            top: 20px;
+            left: 20px;
+            font-size: 18px;
+            z-index: 1;
+        }
+
+        /* Estilo para el header y la navegación */
+        header {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 0;
+            z-index: 2;
+            text-align: center;
+        }
+
+        header h1 {
+            color: white;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 10px 0 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #1abc9c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Gestión</h1>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="registro.php">Registro</a></li>
+                <li><a href="reporte.php">Asistencia</a></li>
+                <li><a href="salario.php">Reporte de Salario</a></li>
+                <li><a href="usuarios.php">Usuarios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="home.js"></script>
+</body>
+</html>
+
