@@ -1,0 +1,16 @@
+{
+    "name": "erick/asistencia",
+    "autoload": {
+        "psr-4": {
+            "Erick\\Asistencia\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "santiago"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.2"
+    }
+}
